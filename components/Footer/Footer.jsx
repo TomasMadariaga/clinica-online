@@ -34,18 +34,13 @@ const Footer = () => {
         </li>
       </ul>
       <ul className="lista">
-        <li>Enlaces</li>
-        <li>
+        <li className="links">
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <FaFacebook />
           </a>
-        </li>
-        <li>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <FaInstagram />
           </a>
-        </li>
-        <li>
           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
             <FaTwitter />
           </a>
