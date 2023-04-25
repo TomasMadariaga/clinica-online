@@ -2,12 +2,12 @@
     display: flex;
     background-color: #3F979B; 
     color: #fff; 
-    padding: 10px; 
     text-align: center; 
     position: fixed; 
     bottom: 0; 
     width: 100%; 
     justify-content: center;
+    max-height: 215px;
   }
 
 li{
@@ -34,22 +34,5 @@ a:hover{
 .links  {
   font-size: 30px;
   margin-top: 80px;
-}
-
-.lista {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  list-style-type: none;
-  padding: 0;
-}
-
-.lista li {
-  flex: 1 1 25%; 
-  box-sizing: border-box;
-}
-
-.lista li:nth-last-child(-n+3) {
-  flex-basis: 100%; 
+  margin-left: 40px;
 }
